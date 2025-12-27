@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Task - Registration Form</title>
+</head>
+
+<body>
+  <form>
+    <table border="1" cellspacing="2" cellpadding="5">
+      <tr>
+        <th colspan="2">registration Form</th>
+      </tr>
+      <tr>
+        <td>first name</td>
+        <td><input type="text" name="fname"></td>
+      </tr>
+      <tr>
+        <td>Last name</td>
+        <td><input type="text" name="lname"></td>
+      </tr>
+      <tr>
+        <td>User name</td>
+        <td><input type="text" name="uname"></td>
+      </tr>
+      <tr>
+        <td>Pass</td>
+        <td><input type="password" name="pass"></td>
+      </tr>
+      <tr>
+        <td>Track</td>
+        <td>
+          <select name="track">
+            <option>BI</option>
+            <option>Frontend</option>
+            <option>Backend</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender"> Male<br>
+          <input type="radio" name="gender"> Female
+        </td>
+      </tr>
+      <tr>
+        <td>Favorites</td>
+        <td>
+          <input type="checkbox"> football <input type="checkbox"> basketball<br>
+          <input type="checkbox"> games<br> <input type="checkbox"> reading
+          <input type="checkbox"> swimming<br> <input type="checkbox"> Trave
+        </td>
+      </tr>
+      <tr>
+        <td>description</td>
+        <td><textarea name="desc" rows="5" cols="30"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="file" name="file">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>

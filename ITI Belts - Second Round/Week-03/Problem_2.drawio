@@ -1,0 +1,97 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="JQKDbzpxRvHIR6_oKqMW">
+    <mxGraphModel dx="1097" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AiXMgGOPVAlT32BilGh_-1" value="SalesOffice" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-2" value="&lt;div&gt;Office_Number (PK)&lt;/div&gt;&lt;div&gt;Location_State&lt;/div&gt;&lt;div&gt;Location_City&lt;/div&gt;&lt;div&gt;ManagerID (FK)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AiXMgGOPVAlT32BilGh_-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="AiXMgGOPVAlT32BilGh_-3" target="AiXMgGOPVAlT32BilGh_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-3" value="Employee" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-4" value="&lt;div&gt;Employee_ID (PK)&lt;/div&gt;&lt;div&gt;Employee_Name&lt;/div&gt;&lt;div&gt;AssignedOffice (FK)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AiXMgGOPVAlT32BilGh_-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AiXMgGOPVAlT32BilGh_-5" target="AiXMgGOPVAlT32BilGh_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-5" value="Property" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-6" value="&lt;div&gt;Property_ID (PK)&lt;/div&gt;&lt;div&gt;Address&lt;/div&gt;&lt;div&gt;City&lt;/div&gt;&lt;div&gt;State&lt;/div&gt;&lt;div&gt;Zip_Code&lt;/div&gt;&lt;div&gt;Office_Number (FK)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AiXMgGOPVAlT32BilGh_-5">
+          <mxGeometry y="50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AiXMgGOPVAlT32BilGh_-7" target="AiXMgGOPVAlT32BilGh_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-7" value="Owner" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-8" value="&lt;div&gt;Owner_ID (PK)&lt;/div&gt;&lt;div&gt;Owner_Name&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AiXMgGOPVAlT32BilGh_-7">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-12" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-13" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AiXMgGOPVAlT32BilGh_-4" target="AiXMgGOPVAlT32BilGh_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-16" value="M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="445" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-17" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-19" value="Assigned" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-21" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-22" value="M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="175" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-23" value="Listed" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-26" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-27" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-28" value="Manage" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-29" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Ownership&lt;/span&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-30" value="&lt;div&gt;Property_ID (FK)&lt;/div&gt;&lt;div&gt;Owner_ID (FK)&lt;/div&gt;&lt;div&gt;Percent_Owned&lt;/div&gt;&lt;div&gt;PK = (Property_ID, Owner_ID)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AiXMgGOPVAlT32BilGh_-29">
+          <mxGeometry y="50" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-32" value="Ownership" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="200" y="155" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AiXMgGOPVAlT32BilGh_-32" target="AiXMgGOPVAlT32BilGh_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-35" value="M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AiXMgGOPVAlT32BilGh_-36" value="M" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
