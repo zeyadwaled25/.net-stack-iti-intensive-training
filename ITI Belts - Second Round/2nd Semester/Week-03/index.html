@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Lab 3</title>
+  <style>
+    body.dark {
+      background: #222;
+      color: white;
+    }
+
+    img {
+      width: 400px;
+      height: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <input id="name" placeholder="Enter Name">
+  <input id="age" placeholder="Enter Age">
+  <button onclick="addStudent()">Add Student</button>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <hr>
+
+  <button onclick="countElements()">Count Elements</button>
+  <p id="result"></p>
+
+  <hr>
+
+  <button onclick="toggleMode()">Toggle Dark Mode</button>
+
+  <hr>
+
+  <img id="slider" src="./image1.png" alt="Slider Image">
+  <br>
+  <button onclick="prev()">Prev</button>
+  <button onclick="play()">Play</button>
+  <button onclick="stop()">Stop</button>
+  <button onclick="next()">Next</button>
+
+  <script src="main.js"></script>
+</body>
+
+</html>

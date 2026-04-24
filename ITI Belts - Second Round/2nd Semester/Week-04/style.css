@@ -1,0 +1,24 @@
+.btn {
+  background: #4b4bb7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+a {
+  color: red;
+  cursor: pointer;
+}
